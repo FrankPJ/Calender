@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.szchoiceway.calendarviewproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.szchoiceway.calendarviewproject.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.szchoiceway.calendarviewproject.meizu.MeiZuActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.multi.MultiActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.index.IndexActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.simple.SimpleActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.range.RangeActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.colorful.ColorfulActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.solay.SolarActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.single.SingleActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.progress.ProgressActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.custom.CustomActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.pager.ViewPagerActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.full.FullActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.TestActivity" />
+        <activity android:name="com.szchoiceway.calendarviewproject.CalendarActivity" />
+    </application>
+
+</manifest>

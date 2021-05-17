@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimerView">
+        <attr name="Num0Drawable" format="reference"/>
+        <attr name="Num1Drawable" format="reference"/>
+        <attr name="Num2Drawable" format="reference" />
+        <attr name="Num3Drawable" format="reference" />
+        <attr name="Num4Drawable" format="reference" />
+        <attr name="Num5Drawable" format="reference" />
+        <attr name="Num6Drawable" format="reference" />
+        <attr name="Num7Drawable" format="reference" />
+        <attr name="Num8Drawable" format="reference" />
+        <attr name="Num9Drawable" format="reference" />
+        <attr name="DoubleDot" format="reference" />
+        <attr name="secondVisibility" format="boolean"/><!-- 时钟是否显示秒 -->
+        <attr name="imgGaps" format="dimension" /><!-- 图片之间间隔 -->
+    </declare-styleable>
+
+    <declare-styleable name="WeatherView">
+        <attr name="d00" format="reference"/>
+        <attr name="d01" format="reference"/>
+        <attr name="d02" format="reference"/>
+        <attr name="d03" format="reference"/>
+        <attr name="d04" format="reference"/>
+        <attr name="d05" format="reference"/>
+        <attr name="d06" format="reference"/>
+        <attr name="d07" format="reference"/>
+        <attr name="d08" format="reference"/>
+        <attr name="d09" format="reference"/>
+        <attr name="d10" format="reference"/>
+        <attr name="d11" format="reference"/>
+        <attr name="d12" format="reference"/>
+        <attr name="d13" format="reference"/>
+        <attr name="d14" format="reference"/>
+        <attr name="d15" format="reference"/>
+        <attr name="d16" format="reference"/>
+        <attr name="d17" format="reference"/>
+        <attr name="d18" format="reference"/>
+        <attr name="d19" format="reference"/>
+        <attr name="d20" format="reference"/>
+        <attr name="d21" format="reference"/>
+        <attr name="d22" format="reference"/>
+        <attr name="d23" format="reference"/>
+        <attr name="d24" format="reference"/>
+        <attr name="d25" format="reference"/>
+        <attr name="d26" format="reference"/>
+        <attr name="d27" format="reference"/>
+        <attr name="d28" format="reference"/>
+        <attr name="d29" format="reference"/>
+        <attr name="d30" format="reference"/>
+        <attr name="d31" format="reference"/>
+        <attr name="d53" format="reference"/>
+        <attr name="n00" format="reference"/>
+        <attr name="n01" format="reference"/>
+        <attr name="n02" format="reference"/>
+        <attr name="n03" format="reference"/>
+        <attr name="n04" format="reference"/>
+        <attr name="n05" format="reference"/>
+        <attr name="n06" format="reference"/>
+        <attr name="n07" format="reference"/>
+        <attr name="n08" format="reference"/>
+        <attr name="n09" format="reference"/>
+        <attr name="n10" format="reference"/>
+        <attr name="n11" format="reference"/>
+        <attr name="n12" format="reference"/>
+        <attr name="n13" format="reference"/>
+        <attr name="n14" format="reference"/>
+        <attr name="n15" format="reference"/>
+        <attr name="n16" format="reference"/>
+        <attr name="n17" format="reference"/>
+        <attr name="n18" format="reference"/>
+        <attr name="n19" format="reference"/>
+        <attr name="n20" format="reference"/>
+        <attr name="n21" format="reference"/>
+        <attr name="n22" format="reference"/>
+        <attr name="n23" format="reference"/>
+        <attr name="n24" format="reference"/>
+        <attr name="n25" format="reference"/>
+        <attr name="n26" format="reference"/>
+        <attr name="n27" format="reference"/>
+        <attr name="n28" format="reference"/>
+        <attr name="n29" format="reference"/>
+        <attr name="n30" format="reference"/>
+        <attr name="n31" format="reference"/>
+        <attr name="n53" format="reference"/>
+        <attr name="nodata" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="DrawTempTxtStyle">
+        <attr name="Num0" format="reference"/>
+        <attr name="Num1" format="reference"/>
+        <attr name="Num2" format="reference" />
+        <attr name="Num3" format="reference" />
+        <attr name="Num4" format="reference" />
+        <attr name="Num5" format="reference" />
+        <attr name="Num6" format="reference" />
+        <attr name="Num7" format="reference" />
+        <attr name="Num8" format="reference" />
+        <attr name="Num9" format="reference" />
+        <attr name="NumDot" format="reference" />
+        <attr name="NumUnit" format="reference" />
+        <attr name="NumUnitT" format="reference" /><!-- 华氏度 -->
+        <attr name="NumUnitC" format="reference" /><!-- 摄氏度 -->
+        <attr name="NumHI" format="reference" />
+        <attr name="NumLO" format="reference" />
+        <attr name="TemperatureDisplay" format="float" />
+    </declare-styleable>
+    <declare-styleable name="BTType">
+        <attr name="drawableBC5" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="mode_type">
+        <attr name="radio_mode" format="reference"/>
+        <attr name="music_mode" format="reference"/>
+        <attr name="movie_mode" format="reference"/>
+        <attr name="bt_mode" format="reference"/>
+        <attr name="aux_mode" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="RotateDialScale">
+        <attr name="backgroundDrawable" format="reference" /><!--背景-->
+        <attr name="pointerDraw" format="reference" /><!--指针图-->
+        <attr name="pointerStartDegree" format="integer" /><!--指针起始角度-->
+        <attr name="pointerMaxScaleDegree" format="float" /><!--最大角度-->
+        <attr name="processNormalDrawable" format="reference" />
+        <attr name="processCurDrawable" format="reference" />
+        <attr name="pointerScaleDegree" format="float" />
+        <attr name="processCurDrawable2" format="reference" />
+        <attr name="processDirection" format="integer" /><!--旋转方向-->
+    </declare-styleable>
+
+    <declare-styleable name="My3dView">
+        <attr name="iFLDoorDrawable" format="reference" /><!--前左-->
+        <attr name="iFRDoorDrawable" format="reference" /><!--前右-->
+        <attr name="iRLDoorDrawable" format="reference" /><!--后左-->
+        <attr name="iRRDoorDrawable" format="reference" /><!--后右-->
+        <attr name="iFDoorDrawable" format="reference" /><!--引擎盖-->
+        <attr name="iRDoorDrawable" format="reference" /><!--后尾箱-->
+        <attr name="iLRotate" format="integer" /><!--左侧旋转角度-->
+        <attr name="iRRotate" format="integer" /><!--右侧旋转角度-->
+
+    </declare-styleable>
+
+    <declare-styleable name="SignCalendar">
+        <attr name="signCalendarBackgroundColor" format="color" />
+        <attr name="signCalendarBackgroundDrawable" format="reference" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="CalendarView">
+
+        <attr name="calendar_padding" format="dimension" /><!--日历内部左右padding-->
+
+        <attr name="week_background" format="color" /><!--周背景-->
+        <attr name="week_line_background" format="color" /><!--线条颜色-->
+        <attr name="week_text_color" format="color" /><!--周栏字体颜色-->
+        <attr name="week_text_size" format="dimension" /><!--周栏字体大小-->
+        <attr name="week_line_margin" format="dimension" /><!--线条margin-->
+
+        <attr name="month_view" format="string" /><!--完全自定义月视图-->
+        <attr name="week_view" format="string" /> <!--完全自定义周视图-->
+        <attr name="year_view" format="string" /> <!--完全自定义年视图-->
+        <attr name="week_bar_height" format="dimension" /> <!--星期栏的高度-->
+        <attr name="week_bar_view" format="string" /> <!--如果需要的话使用自定义星期栏-->
+
+        <attr name="scheme_text" format="string" />
+        <attr name="day_text_size" format="dimension" />
+        <attr name="lunar_text_size" format="dimension" />
+        <attr name="calendar_height" format="dimension" />
+        <attr name="calendar_match_parent" format="boolean" /> <!-- 全屏日历 -->
+        <attr name="scheme_text_color" format="color" />
+        <attr name="scheme_month_text_color" format="color" />
+        <attr name="scheme_lunar_text_color" format="color" />
+        <attr name="scheme_theme_color" format="color" />
+
+        <attr name="selected_theme_color" format="color" />
+        <attr name="selected_text_color" format="color" />
+        <attr name="selected_lunar_text_color" format="color" />
+
+        <attr name="current_day_text_color" format="color" />
+        <attr name="current_day_lunar_text_color" format="color" />
+        <attr name="current_month_text_color" format="color" />
+        <attr name="other_month_text_color" format="color" />
+        <attr name="current_month_lunar_text_color" format="color" />
+        <attr name="other_month_lunar_text_color" format="color" />
+
+
+        <!-- 年视图相关 -->
+        <attr name="year_view_month_text_size" format="dimension" />
+        <attr name="year_view_day_text_size" format="dimension" />
+        <attr name="year_view_month_text_color" format="color" />
+        <attr name="year_view_current_day_text_color" format="color" />
+        <attr name="year_view_day_text_color" format="color" />
+        <attr name="year_view_select_text_color" format="color" />
+        <attr name="year_view_scheme_color" format="color" />
+        <attr name="year_view_background" format="color" />
+        <attr name="year_view_month_height" format="dimension" />
+        <attr name="year_view_week_height" format="dimension" />
+        <attr name="year_view_week_text_size" format="dimension" />
+        <attr name="year_view_week_text_color" format="color" />
+        <attr name="year_view_padding" format="dimension" />
+        <attr name="year_view_month_margin_top" format="dimension" />
+        <attr name="year_view_month_margin_bottom" format="dimension" />
+
+        <!--日期范围-->
+        <attr name="min_year" format="integer" />
+        <attr name="max_year" format="integer" />
+        <attr name="min_year_month" format="integer" />
+        <attr name="max_year_month" format="integer" />
+        <attr name="min_year_day" format="integer" />
+        <attr name="max_year_day" format="integer" />
+
+
+        <!--月视图是否可滚动-->
+        <attr name="month_view_scrollable" format="boolean" />
+        <!--周视图是否可滚动-->
+        <attr name="week_view_scrollable" format="boolean" />
+        <!--年视图是否可滚动-->
+        <attr name="year_view_scrollable" format="boolean" />
+
+        <!-- 月份显示模式 -->
+        <attr name="month_view_show_mode">
+            <enum name="mode_all" value="0" />
+            <enum name="mode_only_current" value="1" />
+            <enum name="mode_fix" value="2" />
+        </attr>
+
+        <!-- 自定义周起始 -->
+        <attr name="week_start_with">
+            <enum name="sun" value="1" />
+            <enum name="mon" value="2" />
+            <enum name="sat" value="7" />
+        </attr>
+
+        <!-- 自定义选择模式 -->
+        <attr name="select_mode">
+            <enum name="default_mode" value="0" />
+            <enum name="single_mode" value="1" />
+            <enum name="range_mode" value="2" />
+            <enum name="multi_mode" value="3" />
+        </attr>
+
+        <!-- when select_mode = multi_mode -->
+        <attr name="max_multi_select_size" format="integer" />
+
+        <!-- when select_mode = range_mode -->
+        <attr name="min_select_range" format="integer" />
+        <attr name="max_select_range" format="integer" />
+
+        <!-- auto select day -->
+        <attr name="month_view_auto_select_day">
+            <enum name="first_day_of_month" value="0" />
+            <enum name="last_select_day" value="1" />
+            <enum name="last_select_day_ignore_current" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CalendarLayout">
+        <attr name="default_status">
+            <enum name="expand" value="0" />
+            <enum name="shrink" value="1" />
+        </attr>
+
+
+        <!-- 手势模式 -->
+        <attr name="gesture_mode">
+            <enum name="default_mode" value="0" />
+            <!--<enum name="only_calendar" value="1" />-->
+            <enum name="disabled" value="2" />
+        </attr>
+
+        <attr name="calendar_show_mode">
+            <enum name="both_month_week_view" value="0" />
+            <enum name="only_week_view" value="1" />
+            <enum name="only_month_view" value="2" />
+        </attr>
+        <attr name="calendar_content_view_id" format="integer" />
+    </declare-styleable>
+
+</resources>
